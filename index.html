@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Built Happy | Renovation & Carpentry on Cape Cod</title>
 <meta name="description" content="Built Happy LLC is a women-owned renovation and carpentry company in Marstons Mills, Cape Cod. Tile, trim, painting, built-ins, exterior trim and fences. Free estimates. MA HIC #655032.">
-<link rel="icon" type="image/png" href="logo-icon.png">
+<link rel="icon" type="image/png" href="images/logo-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -161,13 +161,14 @@
 
   /* Contact */
   .contact-lede{color:var(--muted);font-size:1.08rem;margin:16px 0 32px}
-  .contact-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:860px}
+  .contact-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .contact-card{display:block;background:var(--navy);color:var(--cream);text-decoration:none;padding:28px 30px;border-radius:4px;transition:background .15s}
   .contact-card:hover{background:var(--navy-deep)}
   .contact-card small{display:block;font:700 .76rem "Archivo",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#CFC9BB;margin-bottom:8px}
-  .contact-card span{font:800 clamp(1.15rem,2.4vw,1.6rem) "Archivo",sans-serif;word-break:break-word}
+  .contact-card span{display:block;font:800 clamp(1.05rem,1.6vw,1.3rem)/1.25 "Archivo",sans-serif}
   .area{font-size:.95rem;color:var(--muted);margin-top:26px}
-  @media (max-width:700px){.contact-cards{grid-template-columns:1fr}}
+  @media (max-width:900px){.contact-cards{grid-template-columns:1fr}}
+  @media (max-width:480px){.contact-card{padding:22px 20px}}
 
   footer{background:var(--navy-deep);color:#CFC9BB;padding:44px 0 36px;font-size:.9rem}
   .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px}
@@ -184,7 +185,7 @@
 <header>
   <div class="wrap bar">
     <a class="logo" href="#top" aria-label="Built Happy home">
-      <img src="logo.png" alt="Built Happy" width="900" height="197">
+      <img src="images/logo.png" alt="Built Happy" width="900" height="197">
     </a>
     <nav aria-label="Main">
       <ul>
@@ -203,8 +204,8 @@
 
 <main id="main">
   <section class="hero" id="top" style="padding:0">
-    <img class="hero-img" src="exterior-after.jpg" alt="The Built Happy house in Marstons Mills after its exterior renovation">
-    <img class="hero-wave" src="logo-icon-cream.png" alt="" aria-hidden="true">
+    <img class="hero-img" src="images/exterior-after.jpg" alt="The Built Happy house in Marstons Mills after its exterior renovation">
+    <img class="hero-wave" src="images/logo-icon-cream.png" alt="" aria-hidden="true">
     <div class="wrap hero-inner">
       <h1>Quality work. Happier homes.</h1>
       <p class="lede">Built Happy is a women-owned renovation and carpentry company in Marstons Mills. We renovated our own Cape house by hand. Now we bring the same care to yours, with free estimates, fixed prices and photo updates throughout every job.</p>
@@ -252,7 +253,7 @@
   <section class="story" id="story">
     <div class="wrap story-grid">
       <figure class="story-photo" style="margin:0">
-        <img src="imagesowners.jpg" alt="Emily Gianunzio and Caroline Grady at their house in Marstons Mills">
+        <img src="images/owners.jpg" alt="Emily Gianunzio and Caroline Grady at their house in Marstons Mills">
         <figcaption hidden>Photo of Emily and Caroline</figcaption>
       </figure>
       <div>
@@ -290,13 +291,13 @@
       </div>
       <!-- Put photos in an "images" folder next to this file, using these names. Missing photos show as dashed boxes. -->
       <div class="gallery">
-        <figure class="wide"><span class="tag">Before</span><img src="bathroom-before.jpg" alt="Bathroom before renovation"><figcaption>Bathroom, before</figcaption></figure>
-        <figure class="wide"><span class="tag">After</span><img src="bathroom-after.jpg" alt="Bathroom after new tile floor and shower walls"><figcaption>Bathroom, after: tile floor and shower walls</figcaption></figure>
-        <figure class="wide tall"><img src="living-room.jpg" alt="Living room with refinished hardwood floors"><figcaption>Living room</figcaption></figure>
-        <figure><img src="bedroom-1.jpg" alt="Renovated bedroom"><figcaption>Bedroom</figcaption></figure>
-        <figure><img src="bedroom-2.jpg" alt="Second renovated bedroom"><figcaption>Bedroom</figcaption></figure>
-        <figure><img src="backyard.jpg" alt="Backyard with hand-built patio"><figcaption>Backyard and patio</figcaption></figure>
-        <figure><img src="exterior-before.jpg" alt="House exterior before new siding"><figcaption>Exterior, before</figcaption></figure>
+        <figure class="wide"><span class="tag">Before</span><img src="images/bathroom-before.jpg" alt="Bathroom before renovation"><figcaption>Bathroom, before</figcaption></figure>
+        <figure class="wide"><span class="tag">After</span><img src="images/bathroom-after.jpg" alt="Bathroom after new tile floor and shower walls"><figcaption>Bathroom, after: tile floor and shower walls</figcaption></figure>
+        <figure class="wide tall"><img src="images/living-room.jpg" alt="Living room with refinished hardwood floors"><figcaption>Living room</figcaption></figure>
+        <figure><img src="images/bedroom-1.jpg" alt="Renovated bedroom"><figcaption>Bedroom</figcaption></figure>
+        <figure><img src="images/bedroom-2.jpg" alt="Second renovated bedroom"><figcaption>Bedroom</figcaption></figure>
+        <figure><img src="images/backyard.jpg" alt="Backyard with hand-built patio"><figcaption>Backyard and patio</figcaption></figure>
+        <figure><img src="images/exterior-before.jpg" alt="House exterior before new siding"><figcaption>Exterior, before</figcaption></figure>
       </div>
     </div>
   </section>
@@ -338,7 +339,7 @@
 <footer>
   <div class="wrap foot">
     <div>
-      <a class="logo" href="#top" aria-label="Back to top"><img src="logo-cream.png" alt="Built Happy" width="900" height="197"></a>
+      <a class="logo" href="#top" aria-label="Back to top"><img src="images/logo-cream.png" alt="Built Happy" width="900" height="197"></a>
       <p class="tagline">Quality work. Happier homes.</p>
       <div>Built Happy LLC · Marstons Mills, MA<span data-ig hidden> · <a>Instagram</a></span></div>
     </div>
@@ -358,7 +359,7 @@
   document.querySelectorAll("[data-phone-card]").forEach(a => a.href = tel);
   document.querySelectorAll("[data-phone-text]").forEach(s => s.textContent = SITE.phone);
   document.querySelectorAll("[data-email-card]").forEach(a => a.href = "mailto:" + SITE.email + "?subject=" + encodeURIComponent("Free estimate request"));
-  document.querySelectorAll("[data-email-text]").forEach(s => s.textContent = SITE.email);
+  document.querySelectorAll("[data-email-text]").forEach(s => s.innerHTML = SITE.email.replace("@", "<wbr>@"));
   document.querySelectorAll("[data-hic]").forEach(s => s.textContent = SITE.hic);
   document.querySelectorAll("[data-insured]").forEach(el => el.hidden = !SITE.insured);
   if (SITE.instagram) document.querySelectorAll("[data-ig]").forEach(el => { el.hidden = false; el.querySelector("a").href = SITE.instagram; });
